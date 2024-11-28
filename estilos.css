@@ -1,0 +1,93 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background: #ec1bd1;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f799f7, #c907e2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #e0138b, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+header{
+    display: flex;
+    min-height: 70px;
+    background: #ce0b7d85;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f8099c, #d426c6, #e277bf);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ee088ea6, #d612ac8e, #86768146); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+    padding-right: 10px;
+    
+    }
+
+nav a:hover{
+    color: rgb(14, 13, 13);
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column; 
+    }
+
+    nav{
+        padding: 10px 0;
+    }
+    
+}
+
+.colo {
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+
+}
+
+.margin {
+ margin: 20px;
+ padding: 10px;
+}
+
+.galery{
+ display: flex;
+ height: 20rem;
+ gap: 1rem;
+}
+
+.galery > div  { 
+
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+
+}
+
+.galery > div:hover  {
+    flex: 5;
+} 
+
+.margin {
+    margin: 20PX;
+    padding: 10px;
+}
